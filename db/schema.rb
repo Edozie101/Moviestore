@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20140728144926) do
   end
 
   create_table "overall_averages", force: true do |t|
-    t.integer  "rateable_id"
+    t.integer  "ratea2ble_id"
     t.string   "rateable_type"
     t.float    "overall_avg",   null: false
     t.datetime "created_at"

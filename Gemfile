@@ -26,7 +26,8 @@ gem 'devise'
 gem 'spring',        group: :development
 
 # Add rating functionality
-gem 'ratyrate', :github => 'wazery/ratyrate'
+gem 'ratyrate', :github => 'wazery/ratyrate', :branch => 'development'
+
 # gem 'ratyrate', :path => '~/Sources/ratyrate'
 # gem 'ratyrate'
 gem 'quiet_assets', group: :development
@@ -36,7 +37,7 @@ gem 'pry-stack_explorer', '~> 0.4.9.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'ratyrate', :github => 'wazery/ratyrate', :branch => 'development'
 # Use unicorn as the app server
 # gem 'unicorn'
 
